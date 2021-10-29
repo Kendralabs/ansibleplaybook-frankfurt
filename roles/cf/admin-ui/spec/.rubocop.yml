@@ -1,0 +1,14 @@
+inherit_from:
+  - ../.rubocop.yml
+
+Layout/FirstArrayElementIndentation:
+  EnforcedStyle: align_brackets
+
+Layout/FirstHashElementIndentation:
+  EnforcedStyle: align_braces
+
+Lint/SuppressedException:
+  Enabled: false
+
+Style/Lambda:
+  Enabled: false

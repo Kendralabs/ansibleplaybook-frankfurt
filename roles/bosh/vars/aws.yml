@@ -1,0 +1,29 @@
+# Copyright (c) 2016 Intel Corporation
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#    http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+#
+
+---
+
+# BOSH AWS CPI Release
+bosh_cpi_release_version: 85
+bosh_cpi_release_sha1: ab16bba3ae74b1a59f67d1579de22bc26ae95c53 
+bosh_cpi_release_url: https://bosh.io/d/github.com/cloudfoundry/bosh-aws-cpi-release?v={{ bosh_cpi_release_version }}
+
+# BOSH Stemcell
+bosh_stemcell_sha1: 9c620c24bfc5d41c7cb0b7a009a5c6602a8a5b14
+bosh_stemcell_url:  https://bosh.io/d/stemcells/bosh-aws-xen-hvm-ubuntu-bionic-go_agent?v=0.19
+
+bosh_instance_type: m3.medium
+
+# vi:et:sw=2 ts=2 sts=2 ft=ansible
