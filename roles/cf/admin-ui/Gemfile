@@ -11,10 +11,10 @@ gem 'protobuf', '3.10.3'
 gem 'rack-ssl', '1.4.1'
 gem 'sequel', '5.43.0'
 gem 'sequel_pg', '1.14.0'
-gem 'sinatra', '2.1.0'
+gem 'sinatra', '2.2.3'
 gem 'sqlite3', '1.4.2'
 gem 'webrick', '1.7.0'
-gem 'yajl-ruby', '1.4.1'
+gem 'yajl-ruby', '1.4.2'
 
 group :mysql do
   gem 'mysql2', '0.5.3'
